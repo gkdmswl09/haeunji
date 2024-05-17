@@ -3,11 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog Page</title>
+    <title>애니메이션 효과</title>
     <link rel="stylesheet" type="text/css" href="mycss.css">
+    
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: relative;
+            animation: 2s myanim;
+            animation-iteration-count: 10;
+        }
 
+        @keyframes myanim{
+            0% {background-color: red; left: 0px; top: 0px;}
+            25% {background-color: red; left: 100px; top: 30px;}
+            50% {background-color: yellow; left: 200px; top: 0px;}
+            75% {background-color: blue; left: 100px; top: 30px;}
+            100% {background-color: blue; left: 0px; top: 0px;}
+        }
+    </style>
 </head>
 <body>
+
     <header>
         <h1>My Blog Page</h1>
     </header>
@@ -31,9 +50,11 @@
     </nav>
 
     <section id="main">
-        <article>
-            <h1>3페이지</h1>
-        </article>
+
+        <div>
+
+        </div>
+        
     </section>
 
     <footer>
