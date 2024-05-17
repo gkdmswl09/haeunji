@@ -3,41 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>가을 소개</title>
+    <title>My Blog Page</title>
+    <link rel="stylesheet" type="text/css" href="mycss.css">
 
-    <style>
-        img.a {
-            float: left;
-            padding: 10px;
-        }
 
-        h1{
-            text-align: center;
-            background-color: yellow;
-            
-        }
-    </style>
 </head>
 <body>
+    <header>
+        <h1>My Blog Page</h1>
+    </header>
 
-    <h1>가을</h1>
-    <img class="a" src="./beautiful-red-green-maple-leaf-tree.jpg" width="200" height="160">
-    <p>
-        가을, 그 긴 여행의 시작을 알리는 달. 여름의 끝자락에서부터 고요한 여유가 그리워지고, 풍성한 색감이 그리워진다. 바람은 시원해지고, 나뭇잎은 서서히 변화하기 시작한다. 가을은 자연이 변화하는 마법 같은 계절이다.
+    <nav>
+        <h1>Links</h1>
 
-가을은 그 자체로 예술작품이다. 노란 잎들이 나뭇가지에서 춤추듯이 내리고, 붉은 해가 서서히 지면을 물들인다. 그 어떤 화가의 그림보다도 아름다운 풍경들이 펼쳐진다. 한잔의 따뜻한 차를 마시며 창가에 앉아, 멀리서 바라보는 가을 풍경은 마음을 편안하게 만든다.
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="1.html">1</a></li>
+            <li><a href="2.html">2</a></li>
+            <li><a href="3.html">3</a></li>
+        </ul>
 
-가을은 또한 변화의 시작이기도 하다. 나무들은 자신의 잎을 준비하고, 동물들은 겨울을 준비한다. 마을은 새로운 계절에 맞게 변하고, 사람들은 시간을 내어 가을의 아름다움을 만끽한다. 고요한 가을 밤, 별들은 더욱 빛나고, 달은 더욱 빛나며, 우리의 마음은 그 아름다움에 감사한다.
+        <figure>
+            <img width="65" height="65" src="1.jpg" alt="홍길동"/>
+            <figcaption>홍길동</figcaption>
+        </figure>
+    </nav>
 
-가을은 또한 추억의 계절이다. 산책을 하며 단풍을 주워서 만들어진 추억들은 영원히 간직되며, 그 때의 감정과 기억은 우리를 따뜻하게 감싸준다. 추억의 향기가 가득한 가을은 우리에게 소중한 사람들과 함께하는 시간을 떠올리게 한다.
+    <section id="main">
+        <article>
+            <h1>Semantic Tags</h1>
+            <p>시맨틱 요소(Semantic elements)들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+        </article>
 
-가을은 또한 새로운 시작의 계절이기도 하다
-    </p>
+        <article>
+            <h1>div와 span</h1>
+            <p>div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. span 요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+        </article>
+    </section>
 
-    <img src="gettyimages-1167067577-170667a.jpg" width="100" height="90">
-    <img src="gettyimages-1167515659-170667a.jpg" width="100" height="90">
-    <img src="gettyimages-841380450-170667a.jpg" width="100" height="90">
-    <img src="row-yellow-ginkgo-tree-autumn-autumn-park-tokyo-japan.jpg" width="100" height="90">
-    <img src="images.jpeg" width="100" height="90">
+    <footer>
+        Copyright (C) 2023 Hong
+    </footer>
 </body>
 </html>
